@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React,{Component} from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+    render(){
+        // var chart1 = React.createElement('li',null,"哈哈")
+        // var chart2 = React.createElement("li",null,"嘻嘻")
+        // var root = React.createElement("ul",{className:'my-ul'},chart1,chart2)
+        return(
+            <ul className="my-ul">
+                <li>{false ? "hehe" : "呵呵"}</li>
+                <li>two</li>
+            </ul>
+        )
+    }
 }
 
-export default App;
+export default App
