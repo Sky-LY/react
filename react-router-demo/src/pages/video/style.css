@@ -1,0 +1,29 @@
+.video-box{
+
+}
+.video-box ul{
+    display: flex;
+    background: #666;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.video-box ul li{
+    list-style: none;
+    padding: 20px;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+}
+.video-box ul li:last-of-type{
+    border-right:0;
+}
+.video-box ul li:hover{
+    background-color: #000;
+}
+.video-box ul li a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+}
